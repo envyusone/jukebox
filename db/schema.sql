@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS playlists_tracks;
 DROP TABLE IF EXISTS playlists;
 DROP TABLE IF EXISTS tracks;
 
+
 -- 2. Create the Tracks table
 CREATE TABLE tracks (
     id SERIAL PRIMARY KEY,

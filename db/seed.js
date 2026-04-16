@@ -37,6 +37,7 @@ async function seed() {
   }
 }
 
+
 await db.connect();
 await seed();
 await db.end();
